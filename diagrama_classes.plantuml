@@ -1,0 +1,11 @@
+@startuml diagrama_classe
+
+title Diagrama de Classes
+
+class MiniGame{
+    -powerOn: Boolean 
+    -selectGame: String
+    -volume: Integer
+    +construto(powerOn, selectGame, volume)
+}
+
