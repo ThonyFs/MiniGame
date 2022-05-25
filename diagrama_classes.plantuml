@@ -8,8 +8,11 @@ class MiniGame{
     -volume: Integer
     +construto(powerOn, selectGame, volume)
     +ligar(powerOn)
+    +desligar(powerOn)
     +selecionarGame(selectGame)
     +volumeUp(volume)
     +volumeDown(volume)
+    +get_selectGame(self)
+    +get_volume(self)
 }
 
