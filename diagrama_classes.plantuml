@@ -7,5 +7,9 @@ class MiniGame{
     -selectGame: String
     -volume: Integer
     +construto(powerOn, selectGame, volume)
+    +ligar(powerOn)
+    +selecionarGame(selectGame)
+    +volumeUp(volume)
+    +volumeDown(volume)
 }
 
